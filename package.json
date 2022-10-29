@@ -4,7 +4,8 @@
   "description": "\"Browser based game\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server src"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/snezhka003/ajs-homework-ESM/issues"
   },
-  "homepage": "https://github.com/snezhka003/ajs-homework-ESM#readme"
+  "homepage": "https://github.com/snezhka003/ajs-homework-ESM#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
